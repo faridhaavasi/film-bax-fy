@@ -18,6 +18,7 @@ LOCAL_APPS = [
     'film_box.common.apps.CommonConfig',
     'film_box.users.apps.UsersConfig',
     'film_box.authentication.apps.AuthenticationConfig',
+    'film_box.accounts.apps.AccountsConfig',
 ]
 
 THIRD_PARTY_APPS = [
