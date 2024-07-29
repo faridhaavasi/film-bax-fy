@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/film_box/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/film_box/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/film-box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/film-box.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +38,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;apps/users&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -61,7 +63,8 @@
       <workItem from="1722009845458" duration="482000" />
       <workItem from="1722013674302" duration="1414000" />
       <workItem from="1722015977163" duration="393000" />
-      <workItem from="1722082887933" duration="4046000" />
+      <workItem from="1722082887933" duration="4638000" />
+      <workItem from="1722266698415" duration="1142000" />
     </task>
     <servers />
   </component>
