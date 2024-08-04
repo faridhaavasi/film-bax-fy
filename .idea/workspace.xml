@@ -5,14 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/film-box.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/film-box.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/django/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/django/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/film_box/logger/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/film_box/logger/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -38,7 +45,8 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;logger&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project-django/film-box&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -64,7 +72,12 @@
       <workItem from="1722013674302" duration="1414000" />
       <workItem from="1722015977163" duration="393000" />
       <workItem from="1722082887933" duration="4638000" />
-      <workItem from="1722266698415" duration="1730000" />
+      <workItem from="1722266698415" duration="1734000" />
+      <workItem from="1722591108807" duration="1545000" />
+      <workItem from="1722594832721" duration="267000" />
+      <workItem from="1722595131749" duration="1031000" />
+      <workItem from="1722631160671" duration="37000" />
+      <workItem from="1722777443847" duration="5652000" />
     </task>
     <servers />
   </component>
