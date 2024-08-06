@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/django/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/django/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/film_box/logger/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/film_box/logger/models.py" afterDir="false" />
-    </list>
+    <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +73,7 @@
       <workItem from="1722594832721" duration="267000" />
       <workItem from="1722595131749" duration="1031000" />
       <workItem from="1722631160671" duration="37000" />
-      <workItem from="1722777443847" duration="5652000" />
+      <workItem from="1722777443847" duration="5995000" />
     </task>
     <servers />
   </component>
