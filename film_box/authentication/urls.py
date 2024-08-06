@@ -1,10 +1,7 @@
-from django.urls import path, include
-from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView, TokenVerifyView
+from django.urls import path
+from film_box.authentication.views.otp import GenerateOTP, VerifyOTP
 
 urlpatterns = [
-        path('jwt/', include(([
-            path('login/', TokenObtainPairView.as_view(),name="login"),
-            path('refresh/', TokenRefreshView.as_view(),name="refresh"),
-            path('verify/', TokenVerifyView.as_view(),name="verify"),
-            ])), name="jwt"),
+    path('generate-otp/', GenerateOTP.as_view(), name='generate_otp'),
+    path('verify-otp/', VerifyOTP.as_view(), name='verify_otp'),
 ]
