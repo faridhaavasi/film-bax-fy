@@ -5,7 +5,6 @@ from django.contrib.auth.models import BaseUserManager as BUM
 from django.contrib.auth.models import PermissionsMixin
 
 
-
 class BaseUserManager(BUM):
     def create_user(self, email, phone_number, is_active=True, is_admin=False, password=None):
         if not email:
@@ -13,7 +12,8 @@ class BaseUserManager(BUM):
         if not phone_number:
             raise ValueError("You must enter the phone number")
 
-        user = self.model(email=self.normalize_email(email.lower()), phone_number=phone_number, is_active=is_active, is_admin=is_admin)
+        user = self.model(email=self.normalize_email(email.lower()), phone_number=phone_number, is_active=is_active,
+                          is_admin=is_admin)
 
         if password is not None:
             user.set_password(password)
@@ -41,11 +41,13 @@ class BaseUserManager(BUM):
 
 
 class BaseUser(BaseModel, AbstractBaseUser, PermissionsMixin):
-
-    email = models.EmailField(verbose_name = "email address",
+    email = models.EmailField(verbose_name="email address",
+                              null=True,
+                              blank=True,
                               unique=True, db_index=True)
-    phone_number = models.CharField(max_length=11, unique=True, verbose_name="phone_number")
-
+    phone_number = models.CharField(max_length=11, unique=True,
+                                    db_index=True,
+                                    verbose_name="phone_number")
 
     is_active = models.BooleanField(default=True)
     is_admin = models.BooleanField(default=False)
@@ -53,17 +55,10 @@ class BaseUser(BaseModel, AbstractBaseUser, PermissionsMixin):
     objects = BaseUserManager()
 
     USERNAME_FIELD = "phone_number"
-    REQUIRED_FIELDS = ("email", )
+    REQUIRED_FIELDS = ()
 
     def __str__(self):
-        return self.email
+        return self.phone_number
 
     def is_staff(self):
         return self.is_admin
-
-
-
-
-
-
-
