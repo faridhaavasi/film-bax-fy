@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/film_box/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/film_box/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +62,7 @@
       <workItem from="1722013674302" duration="1414000" />
       <workItem from="1722015977163" duration="393000" />
       <workItem from="1722082887933" duration="4046000" />
-      <workItem from="1723055580037" duration="773000" />
+      <workItem from="1723055580037" duration="1370000" />
     </task>
     <servers />
   </component>
