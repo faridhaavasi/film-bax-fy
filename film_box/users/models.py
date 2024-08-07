@@ -8,8 +8,7 @@ from django.contrib.auth.models import PermissionsMixin
 
 class BaseUserManager(BUM):
     def create_user(self, email, phone_number, is_active=True, is_admin=False, password=None):
-        if not email:
-            raise ValueError("Users must have an email address")
+
         if not phone_number:
             raise ValueError("You must enter the phone number")
 
@@ -43,8 +42,14 @@ class BaseUserManager(BUM):
 class BaseUser(BaseModel, AbstractBaseUser, PermissionsMixin):
 
     email = models.EmailField(verbose_name = "email address",
+                              null=True,
+                              blank=True,
                               unique=True, db_index=True)
-    phone_number = models.CharField(max_length=11, unique=True, verbose_name="phone_number")
+    phone_number = models.CharField(max_length=11,
+                                    unique=True,
+                                    verbose_name="phone_number",
+                                    db_index=True
+                                    )
 
 
     is_active = models.BooleanField(default=True)
@@ -53,7 +58,7 @@ class BaseUser(BaseModel, AbstractBaseUser, PermissionsMixin):
     objects = BaseUserManager()
 
     USERNAME_FIELD = "phone_number"
-    REQUIRED_FIELDS = ("email", )
+    REQUIRED_FIELDS = ()
 
     def __str__(self):
         return self.email
