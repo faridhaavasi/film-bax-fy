@@ -19,6 +19,7 @@ LOCAL_APPS = [
     'film_box.users.apps.UsersConfig',
     'film_box.authentication.apps.AuthenticationConfig',
     'film_box.accounts.apps.AccountsConfig',
+    'film_box.logger.apps.LoggerConfig',
 ]
 
 THIRD_PARTY_APPS = [
@@ -54,6 +55,8 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    # custom
+    'film_box.logger.middlewares.LoggerMiddleware',
 ]
 
 ROOT_URLCONF = 'config.urls'

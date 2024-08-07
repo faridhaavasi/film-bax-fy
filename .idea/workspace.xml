@@ -4,14 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/film_box/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/film_box/users/models.py" afterDir="false" />
     </list>
+=======
+    <list default="true" id="9469ddfe-c615-4468-a88e-0a4244804a85" name="Changes" comment="" />
+>>>>>>> aa0e3de04a4237dc72f5c66b331997eb6edefadb
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -32,6 +43,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -43,6 +55,20 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "vue.rearranger.settings.migration": "true"
+=======
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;logger&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project-django/film-box&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+>>>>>>> aa0e3de04a4237dc72f5c66b331997eb6edefadb
   }
 }]]></component>
   <component name="RecentsManager">
@@ -62,8 +88,18 @@
       <workItem from="1722009845458" duration="482000" />
       <workItem from="1722013674302" duration="1414000" />
       <workItem from="1722015977163" duration="393000" />
+<<<<<<< HEAD
       <workItem from="1722082887933" duration="4046000" />
       <workItem from="1723055580037" duration="4448000" />
+=======
+      <workItem from="1722082887933" duration="4638000" />
+      <workItem from="1722266698415" duration="1734000" />
+      <workItem from="1722591108807" duration="1545000" />
+      <workItem from="1722594832721" duration="267000" />
+      <workItem from="1722595131749" duration="1031000" />
+      <workItem from="1722631160671" duration="37000" />
+      <workItem from="1722777443847" duration="5995000" />
+>>>>>>> aa0e3de04a4237dc72f5c66b331997eb6edefadb
     </task>
     <servers />
   </component>
