@@ -192,6 +192,7 @@ else:
 
 SESSION_ENGINE = 'django.contrib.sessions.backends.cache'
 
+AUTH_USER_MODEL = "user.CustomUser"
 
 # DEBUG TOOLBAR
 # INTERNAL_IPS = [
