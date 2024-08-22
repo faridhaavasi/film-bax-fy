@@ -1,7 +1,7 @@
 from rest_framework import serializers
 from rest_framework.validators import ValidationError
 def zero_phone_number_starter(phone_number: str):
-    if phone_number[0] != '09':
+    if phone_number[0] != '0':
         raise ValidationError('phone number to be must start ith zero')
 
 class SetPhoneNumberSerializer(serializers.Serializer):

@@ -3,6 +3,7 @@ from rest_framework.response import Response
 from rest_framework import status
 from django.contrib.auth import get_user_model
 from django.core.cache import cache
+from drf_spectacular.utils import extend_schema, OpenApiRequest, OpenApiResponse
 from random import randint
 from apps.authentication.serializers.user_signup import SetPhoneNumberSerializer, SetOtpCodeSerializer, RegisterSerializer
 import uuid
@@ -10,6 +11,8 @@ User = get_user_model()
 
 class GenerateOTP(APIView):
     serializer_class = SetPhoneNumberSerializer
+
+    @extend_schema(responses=SetPhoneNumberSerializer)
     def post(self, request):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
@@ -29,6 +32,8 @@ class GenerateOTP(APIView):
 
 class VerifyOTP(APIView):
     serializer_class = SetOtpCodeSerializer
+
+    @extend_schema(responses=SetOtpCodeSerializer)
     def post(self, request):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
